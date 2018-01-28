@@ -7,10 +7,10 @@ A unique URL like www.mylinks.com/cheezyhao95 will be given to the user with the
 
 ## What technology was used to built
 
-- [NodeJS] (https://nodejs.org/en/) for Backend 
-- [Telegraf] (http://telegraf.js.org/#/) for Telegram Bot 
-- [Pug] (https://pugjs.org/api/getting-started.html) for Frontend
-- [Instagram API] (https://www.instagram.com/developer/)
+- [NodeJS](https://nodejs.org/en/) for Backend 
+- [Telegraf](http://telegraf.js.org/#/) for Telegram Bot 
+- [Pug](https://pugjs.org/api/getting-started.html) for Frontend
+- [Instagram API](https://www.instagram.com/developer/)
 
 ## Who built this? 
 - Marcus Koh Chi Hao (Y1S2 CS)
