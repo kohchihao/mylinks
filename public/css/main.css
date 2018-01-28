@@ -1,0 +1,207 @@
+body{
+  background-color: rgb(250, 250, 250);
+  font-size: 18px;
+}
+
+.holder{
+  background-color: #fff;
+  border: 1.5px solid rgb(230,230,230);
+  border-radius: 0.3px;
+}
+
+.button{
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 1em 2.5em;
+  background-color: rgb(242,242,242);
+  border: 0.5px solid rgb(242,242,242);
+  font-weight: 600;
+}
+
+.text-input{ 
+  display: block;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+}
+
+#login-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  padding: 1rem 0 2.4rem 0;
+}
+
+#login-holder > p{
+  font-size: 18px;
+  margin: 1.85em 0;
+}
+
+#user-profile{
+  margin: 4rem 0 1.5rem 0;
+  text-align: center;
+}
+
+#user-profile p{
+  padding: 1rem 1.5rem;
+}
+
+#user-image-div{
+  margin-bottom: 3rem;
+}
+
+#user-image{
+  border-radius: 50%;
+}
+
+#links_creation, #links_management, #get_links, #footer{
+  text-align: center;
+}
+
+#links_creation{
+  padding: 5rem 0;
+  width: 90%;
+  margin: 3rem auto 1rem auto;
+}
+
+#links_description{
+  margin-bottom: 3.5rem;
+}
+
+#add_links{
+  text-align: center;
+  /*background-color: */
+}
+
+#add-btn-holder{
+  /*border: 1px solid black;*/
+  width: 70%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+#add-links-btn{
+  padding: 1.15rem 3rem;
+}
+
+#links_management{
+  padding: 5rem 0;
+}
+
+.link{
+  /*border: 1px solid black;*/
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.created_link, .actions{
+  /*border: 1px solid black;*/
+  display: inline-block;
+  position: relative;
+}
+
+.created_link{
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.title-p{
+  font-weight: 700;
+}
+
+.actions{
+  width: 35%;
+  float: right;
+}
+
+.edit-btn, .del-btn, .mv-btn{
+  padding: 1.5rem 2rem;
+  font-size: 25px;
+  margin-left: 0.75em;
+}
+
+#get_links{
+  padding: 5rem 0;
+}
+
+#get_links h3{
+  margin-bottom: 2.5rem;
+}
+
+#footer{
+  padding: 5rem 0 1.5rem 0;
+}
+
+#complied_link{
+  font-size: 19px;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 16px;
+  }
+
+  body h2{
+    font-size: 22px;
+  }
+
+  .text-input{ 
+    width: 85%;
+  }
+
+  #user-image-div img{
+    width: 12rem;
+  }
+
+  #user-profile p{
+    padding: 1rem 2.5rem;
+  }
+
+  #add-btn-holder{
+    width: 85%;
+  }
+
+  #add-links-btn{
+    padding: 1.15rem 4rem;
+  }
+
+  .edit-btn, .del-btn, .mv-btn{
+    padding: 1.15rem 1.5rem;
+    font-size: 20px;
+    margin-left: 0.7em;
+  }
+}
+
+
+@media only screen and (max-width: 568px) {
+  #add-links-btn{
+    padding: 1.15rem 4rem;
+  }
+
+  .created_link{
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .actions{
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+
+  .edit-btn, .del-btn, .mv-btn{
+    padding: 0.75rem 1.15rem;
+    font-size: 15px;
+    margin-left: 0.7em;
+  }
+}

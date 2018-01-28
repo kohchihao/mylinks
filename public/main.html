@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel = "stylesheet" href = "font-awesome/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <section id = "user-profile">
+      <div id = "user-image-div">
+        <img alt = "User Image" id = "user-image"/>
+      </div>
+      <p>Hello <span id = "username"></span>! Create your links and manange them. Request for your link once you are done.</p> 
+    </section>
+    <section id = "links_creation">
+      <div id = "links_description">
+         <h2>Links Creation</h2>
+         <p>Paste your links here and choose a custom description for them. Click "Add Link"</p>
+      </div> 
+      <div id = "add_links">
+        <h2>Add a new link</h2>
+        <input type = "text" id = "link" class = "text-input" placeholder = "http://facebook.com/hello"/>
+        <input type = "text" id = "link_description" class = "text-input" placeholder = "My Awesome Link"/>
+        <div id = "add-btn-holder">
+          <button class = "button" id = "add-links-btn">Add Link</button>
+        </div>
+      </div>
+    </section>
+    <section id = "links_management">
+      <h2>Your Links</h2>
+      <p>Remove & Edit your links</p>
+      <div id = "links"></div>
+    </section>
+    <section id = "get_links">
+      <h3>Done?</h3>
+      <a href = "/getlink.html" class = "button"> Get your url </a> 
+    </section>
+    <section id = "footer">
+      <p>○ 2018 mylinks</p>
+      <p> All Rights Reserved </p>
+    </section> 
+    <script src = "js/jquery-3.1.1.min.js" type = "text/javascript"></script>
+    <script src = "js/bootstrap.min.js" type = "text/javascript"></script>
+    <script src = "js/main.js" type = "text/javascript"></script>
+  </body>
+</html>
